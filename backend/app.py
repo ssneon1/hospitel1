@@ -31,7 +31,8 @@ app = create_app()
 
 def start_frontend():
     # Only start if not already running (protect against Flask reloader)
-    if os.environ.get("WERKZEUG_RUN_MAIN") == "true":
+    # Also skip if running on Render (production)
+    if os.environ.get("WERKZEUG_RUN_MAIN") == "true" or os.environ.get("RENDER"):
         return
 
     print("Attempting to start frontend dev server...")
