@@ -1,33 +1,6 @@
 services:
-  # Backend: Flask Web Service
-  - type: web
-    name: backhis-backend
-    env: python
-    rootDir: backend
-    buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn app:app
-    envVars:
-      - key: DATABASE_URL
-        fromDatabase:
-          name: backhis-db
-          property: connectionString
-      - key: SECRET_KEY
-        generateValue: true
-      - key: PYTHON_VERSION
-        value: 3.10.0
-
   # Frontend: Static Site
   - type: static
     name: backhis-frontend
     buildCommand: npm install && npm run build
     publishDir: dist
-    envVars:
-      - key: VITE_API_URL
-        fromService:
-          type: web
-          name: backhis-backend
-          property: host
-
-databases:
-  - name: backhis-db
-    plan: free
