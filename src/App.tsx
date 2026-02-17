@@ -70,7 +70,7 @@ function Header() {
           </div>
           <div className="hidden md:flex items-center gap-1">
             <Mail size={14} />
-            <span>info@smppshospital.com</span>
+            <span>info@SNAhospital.com</span>
           </div>
         </div>
       </div>
@@ -79,7 +79,7 @@ function Header() {
       <div className="bg-[#ec6526] text-white py-2 text-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-center font-medium">
-            🏥 SMPPS Hospital - A multi-specialty healthcare center providing quality medical services with compassion since 1999
+            🏥 SNA Hospital - A multi-specialty healthcare center providing quality medical services with compassion since 1999
           </p>
         </div>
       </div>
@@ -93,7 +93,7 @@ function Header() {
               <Heart className="w-7 h-7 text-white" />
             </div>
             <div>
-              <h1 className="text-xl font-bold text-gray-800">SMPPS Hospital</h1>
+              <h1 className="text-xl font-bold text-gray-800">SNA Hospital</h1>
               <p className="text-xs text-[#ec6526] font-medium">Trusted Care, Advanced Treatment</p>
             </div>
           </a>
@@ -220,7 +220,7 @@ function HeroSection() {
               <div className="absolute inset-0 bg-gradient-to-br from-teal-400 to-blue-500 rounded-3xl transform rotate-3 opacity-20"></div>
               <img
                 src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&h=600&fit=crop"
-                alt="SMPPS Hospital Building"
+                alt="SNA Hospital Building"
                 className="relative rounded-3xl shadow-2xl w-full h-auto object-cover"
               />
             </div>
@@ -275,7 +275,7 @@ function AboutSection() {
             </h2>
             <p className="text-gray-600 mb-6 leading-relaxed">
               Founded with the vision to provide affordable and quality healthcare to everyone, 
-              SMPPS Hospital has grown to become one of the most trusted healthcare institutions 
+              SNA Hospital has grown to become one of the most trusted healthcare institutions 
               in the region. Our commitment to excellence, compassion, and patient care sets us apart.
             </p>
             <p className="text-gray-600 mb-8 leading-relaxed">
@@ -345,13 +345,13 @@ function FounderSection() {
             </p>
             <blockquote className="text-xl italic border-l-4 border-[#ec6526] pl-6 mb-6 text-teal-50">
               "Our goal is to ensure every patient is treated with dignity and care. 
-              We founded SMPPS Hospital with a simple mission: to make quality 
+              We founded SNA Hospital with a simple mission: to make quality 
               healthcare accessible to everyone, regardless of their background."
             </blockquote>
             <p className="text-teal-100 mb-8 leading-relaxed">
               With over 35 years of experience in the medical field, Dr. Wilson has 
               dedicated his life to improving healthcare standards. His vision and 
-              leadership have transformed SMPPS into a center of excellence.
+              leadership have transformed SNA into a center of excellence.
             </p>
             <div className="flex items-center gap-4">
               <div className="text-center">
@@ -712,7 +712,7 @@ function WhyChooseUsSection() {
               Why Choose Us
             </div>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
-              Why Patients Trust SMPPS Hospital
+              Why Patients Trust SNA Hospital
             </h2>
             <p className="text-gray-600 mb-8 leading-relaxed">
               For over 25 years, we have been the preferred healthcare destination for 
@@ -866,8 +866,8 @@ function ContactSection() {
                   <div>
                     <h4 className="font-semibold mb-1">Email</h4>
                     <p className="text-teal-100">
-                      info@smppshospital.com<br />
-                      appointments@smppshospital.com
+                      info@SNAhospital.com<br />
+                      appointments@SNAhospital.com
                     </p>
                   </div>
                 </div>
@@ -1022,7 +1022,7 @@ function ContactSection() {
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="SMPPS Hospital Location"
+            title="SNA Hospital Location"
           ></iframe>
         </div>
       </div>
@@ -1048,7 +1048,7 @@ function Footer() {
                 <Heart className="w-7 h-7 text-white" />
               </div>
               <div>
-                <h3 className="text-xl font-bold text-white">SMPPS</h3>
+                <h3 className="text-xl font-bold text-white">SNA</h3>
                 <p className="text-xs text-[#ec6526]">Hospital</p>
               </div>
             </div>
@@ -1122,7 +1122,7 @@ function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-[#ec6526]" />
-                <span className="text-sm">info@smppshospital.com</span>
+                <span className="text-sm">info@SNAhospital.com</span>
               </li>
               <li className="flex items-center gap-3">
                 <Clock className="w-5 h-5 text-[#ec6526]" />
@@ -1138,7 +1138,7 @@ function Footer() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
             <p className="text-gray-500 text-sm text-center sm:text-left">
-              © 2024 SMPPS Hospital. All rights reserved.
+              © 2024 SNA Hospital. All rights reserved.
             </p>
             <div className="flex gap-6 text-sm">
               <a href="#" className="text-gray-500 hover:text-[#ec6526] transition-colors">Privacy Policy</a>
