@@ -94,7 +94,7 @@ function Header() {
             </div>
             <div>
               <h1 className="text-xl font-bold text-gray-800">SNA Hospital</h1>
-              <p className="text-xs text-[#ec6526] font-medium">Trusted Care, Advanced Treatment</p>
+              <p className="text-xs text-[#ec6526] font-medium">Shree Narayan Ashram Multi-Specelist Hospital</p>
             </div>
           </a>
 
